@@ -1,0 +1,118 @@
+                                  /* Flex Box */
+
+  .in{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f1f1;
+    font-weight: bolder;
+    border: 10px solid salmon;
+    border-radius: 70px;
+     margin: 20px;
+     transition: transform 1s linear 0s ;
+    
+}
+
+.in:hover{
+    transform:rotate(20deg) scale(1.2);
+}
+
+
+.an{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f1f1;
+    font-weight: bolder;
+    border: 10px solid salmon;
+    border-radius: 70px;
+     margin: 15px;
+     transition: transform 1s linear 0s ;
+    
+}
+
+.an:hover{
+    transform:rotate(20deg) scale(1.2);
+    background-color: teal;
+}
+
+.aan{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f1f1;
+    font-weight: bolder;
+    border: 10px solid salmon;
+    border-radius: 70px;
+     margin: 15px;
+     transition: transform 1s linear 0s ;
+    
+    
+}
+
+.aan:hover{
+    transform: rotate(20deg) scale(1.2);
+    background-color: teal;
+}
+
+
+
+.on{
+    width: 200px;
+    height: 130px;
+    background-color: crimson;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f1f1;
+    font-weight: bolder;
+    border: 10px solid salmon;
+    border-radius: 25px;
+    /* margin: 5px; */
+    
+}
+
+.oon{
+    width: 250px;
+    height: 130px;
+    background-color: crimson;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f1f1;
+    font-weight: bolder;
+    border: 10px solid salmon;
+    border-radius: 25px;
+    /* margin: 5px; */
+    
+}
+
+
+
+
+.in:hover{
+    background-color: teal;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    text-align: center;
+    height: 90vh;
+    align-items: center;
+    
+}
+.t1{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.t2{
+    display: table-cell;
+    vertical-align: middle;
+} 

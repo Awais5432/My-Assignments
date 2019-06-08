@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    .initial{
+        min-height: 1000px;
+    }
+    
+                       /*      Cube1        */
+    
+    .cube1{
+        top: 300px;
+        left: 50%;
+        position: absolute;
+        transition: transform 1s linear 0s;
+    }
+
+    .cube1:hover{
+
+        transform:translate(200px, 115px);
+
+    }
+
+                         /*      upper      */
+    
+    .uppr{
+
+        transform: rotate(60deg);
+        top: -158px;
+        left: 100px;
+        position: absolute;
+    }
+
+    .uppr div{
+        width: 180px;
+        height: 180px;
+        padding: 10px;
+        transform: skew(0deg,-30deg) scale(1, 1.2);
+        background-color: #eee;
+        font-size: 0.862em;
+    }
+
+    .uppr div:hover{
+
+        background-color: palegoldenrod;
+    }
+    
+
+    .uppr h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .uppr p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 14px;
+        font-size: 11px;
+    }
+
+                          /*       Left        */
+
+    .left{
+        width: 180px;
+        height: 180px;
+        padding: 10px;
+        background-color: #ccc;
+        transform: skew(0deg, 30deg);
+        position: absolute;
+        font-size: 0.862em;
+    }   
+
+    .left:hover{
+
+    background-color: palegoldenrod;
+    }
+    
+    .left h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .left p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 14px;
+        font-size: 12px;
+    }
+
+                             /*      Right      */
+
+    .right{
+        width: 180px;
+        height: 180px;
+        padding: 10px;
+        transform: skew(0deg, -30deg);
+        background-color: #ddd;
+        left: 200px;
+        position: absolute;
+    }
+
+    .right:hover{
+
+background-color: palegoldenrod;
+}
+
+    .right h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .right p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 12px;
+        font-size: 12px;
+    }
+    
+
+                              /*       Cube2              */
+
+        .cube2{
+        top: 416px;
+        left: 50%;
+        margin-left: -200px;
+        position: absolute;
+        transition: transform 1s linear 0s;
+    }
+
+    .cube2:hover{
+
+    transform:translate(200px, 115px);
+
+    }
+
+                              /*      Cube3           */
+
+
+    .cube3{
+        top: 532px;
+        left: 50%;
+        margin-left: -400px;
+        position: absolute;
+        transition: transform 1s linear 0s;
+    }
+    
+    .cube3:hover{
+
+    transform:translate(200px, 115px);
+
+    }
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="initial">
+
+                            <!--           First Cube               -->
+<div class="cube1">
+    <div class="uppr">
+      
+        <div>
+        <h2>Top Cube Face</h2>
+        <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+        <p>This face is also scaled, so the font size has been reduced to accommodate</p>
+        </div>
+        
+    </div>
+
+
+    <div class="left">
+        <h2>Left Cube Face</h2>
+        <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+        <p>This face is also scaled, so the font size has been reduced to accommodate</p>   
+    </div>
+
+
+    <div class="right">
+
+        <h2>Right Cube Face</h2>
+        <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+        <p>This face is also scaled, so the font size has been reduced to accommodate</p> 
+
+    </div>
+
+
+</div>
+
+                                <!--               Second Cube             -->
+<div class="cube2">
+
+    <div class="uppr">
+     
+            <div>
+                    <h2>Top Cube Face</h2>
+                    <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+                    <p>This face is also scaled, so the font size has been reduced to accommodate</p>
+                </div>
+        
+    </div>
+    <div class="left">
+     
+            <h2>Left Cube Face</h2>
+            <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+            <p>This face is also scaled, so the font size has been reduced to accommodate</p> 
+
+    </div>
+    <div class="right">
+
+            <h2>Right Cube Face</h2>
+            <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+            <p>This face is also scaled, so the font size has been reduced to accommodate</p> 
+
+    </div>
+
+
+</div>
+
+                                 <!--          Third Cube              -->
+    
+<div class="cube3">
+
+    <div class="uppr">
+
+            <div>
+                    <h2>Top Cube Face</h2>
+                    <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+                    <p>This face is also scaled, so the font size has been reduced to accommodate</p>
+                </div>
+
+    </div>
+    <div class="left">
+
+            <h2>Left Cube Face</h2>
+            <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+            <p>This face is also scaled, so the font size has been reduced to accommodate</p> 
+      
+    </div>
+
+
+    <div class="right">
+
+
+            <h2>Right Cube Face</h2>
+            <p>The top face is nested in an extra div tag to give correct rotation of skewed rectangle.</p>
+            <p>This face is also scaled, so the font size has been reduced to accommodate</p>
+
+    </div>
+
+
+</div>
+    <!-- End of Cubes -->
+
+
+</div>
+</body>
+</html>

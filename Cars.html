@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cars</title>
+
+
+<style>
+
+
+body{
+
+    margin: 0;
+}
+
+.road{
+
+    position: relative;
+    bottom: -200px;
+    width: 100%;
+
+}
+
+
+@keyframes animate{
+
+0%{
+
+
+left: -20px;
+
+}
+
+50%{
+
+
+left: 633px;
+}
+
+100%{
+
+left: 1500px;
+}
+
+}
+
+
+@keyframes tyre1{
+
+0%{
+
+
+left: 80px;
+
+}
+
+
+
+100%{
+
+left: 1366px;
+}
+
+
+} 
+
+@keyframes tyre2{
+
+0%{
+
+
+left: 473px;
+
+
+}
+
+
+
+100%{
+
+left: 1366px;
+
+}
+
+
+
+} 
+
+.int:nth-last-child(1){
+
+
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 83px;
+    top: 398px;
+    animation-name: tyre1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    
+}
+
+.int:nth-last-child(2){
+
+
+    position: absolute; 
+    width: 103px;
+    height: 103px;
+    left: 473px;
+    top: 396px;
+    animation-name: tyre2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+.int:nth-last-child(3){
+
+    position: absolute;
+    bottom: 100px;
+    left: -20px;
+    width: 680px;
+    height: 360px;
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    
+
+<div class="main">
+
+<img class="road" src="myroad.jpg" alt="road">
+<img class="int" src="my-car.png" alt="cars">
+<img class="int" src="wheel.png" alt="Wheel1">
+<img class="int" src="wheel.png" alt="Wheel2">
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

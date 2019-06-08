@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        @keyframes wheelRotation{
+
+            0%{
+                transform: rotate(0deg)
+            }
+
+            100%{
+                transform: rotate(359deg)
+            }
+
+        }
+
+
+        @keyframes wheelRotation1{
+
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(359deg)
+        }
+
+        }
+
+        @keyframes carAnimation {
+
+            0% {
+                left: 0;
+                
+            }
+
+            50%{
+                
+            }
+
+            100% {
+                
+                left: 100%;
+            }
+
+        }
+        @keyframes carAnimation1 {
+
+        0% {
+            left: 0;
+            
+        }
+
+        50%{
+            
+        }
+
+        100% {
+            
+            left: 100%;
+        }
+
+}
+
+
+
+
+        body {
+            margin: 0;
+        }
+
+        #road {
+            width: 100%;
+        }
+
+        #sportsCar {
+            /* border: 1px solid blue; */
+            width: fit-content;
+            position: relative;
+            top: -158px;
+            transform: scale(2);
+            animation-name: carAnimation;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            /* animation-direction: reverse; */
+        }
+
+        #carBody {
+            width: 200px;
+        }
+
+        .wheel {
+            position: relative;
+            width: 28px;
+            animation-name: wheelRotation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .wheel:nth-child(2) {
+            left: -173px;
+            top: -13px;
+        }
+
+        .wheel:nth-child(3) {
+            left: -91px;
+            top: -12px;
+        }
+
+              /*    Second Car           */ 
+
+
+              #Secondcar {
+             /* border: 1px solid blue;  */
+            width: fit-content;
+            position: relative;
+            top: -400px;
+            transform: scaleX(-1) scale(2);   
+            animation-name: carAnimation1;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite; 
+            animation-direction: reverse;
+        }
+
+        #CarBasic {
+            width: 200px;
+        }
+
+        .wheel1 {
+            position: relative;
+            width: 28px;
+            animation-name: wheelRotation1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .wheel1:nth-child(2) {
+            left: -173px;
+            top: -13px;
+        }
+
+        .wheel1:nth-child(3) {
+            left: -91px;
+            top: -12px;
+        }
+        
+    
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <img id="road" src="myroad.jpg" alt="">
+    </div>
+
+
+    <div id="sportsCar">
+        <img id="carBody" src="my-car.png" alt="">
+
+        <img class="wheel" src="wheel.png" alt="">
+        <img class="wheel" src="wheel.png" alt="">
+    </div>
+
+
+    <div id="Secondcar">
+    
+    <img id="CarBasic" src="my-car.png" alt="">
+
+    <img class="wheel1" src="wheel.png" alt="">
+    <img class="wheel1" src="wheel.png" alt="">
+    
+
+    </div>
+
+
+</body>
+
+</html>

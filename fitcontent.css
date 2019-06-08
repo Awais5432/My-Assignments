@@ -1,0 +1,24 @@
+                           /* <!-- Fit Content --> */
+ .in{
+      width: 200px;
+      height: 200px;
+      background-color: crimson;
+      display: inline-block;
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      line-height: 200px;
+      color: #f1f1f1;
+      font-weight: bolder;
+      border: 2px solid salmon;
+      border-radius: 25px;
+      
+  }
+  .in:hover{
+      background-color: teal;
+  }
+  .con{
+      width: fit-content;
+      margin: 0 auto;
+      
+  } 
